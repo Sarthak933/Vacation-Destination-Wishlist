@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destination project</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cormorant">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Vacation Destination Wishlist</h1>
+        <p>Found exciting places to visit on your next vacation? Use this form below to add them to your wishlist.</p>
+    </header>
+    <main>
+        <div class="form-container">
+            <form action="" id="dest_det_form">
+                <label for="location">Where to go :</label>
+                <input type="text" id="location" required>
+
+                <label for="desc">Description about the destination :</label>
+                <textarea id="desc" cols="30" rows="5" required></textarea>
+
+                <label for="photo">URL of the photo of the destination :</label>
+                <input type="url" id="photo" required>
+
+                <label for="time">When to go : </label>
+                <textarea id="time" cols="30" rows="5" required></textarea>
+
+                <label for="people">With whom to go : </label>
+                <textarea id="people" cols="30" rows="5" required></textarea>
+
+                <label for="things">what to do :</label>
+                <textarea id="things" cols="30" rows="5" required></textarea>
+
+                <div class="button-container">
+                    <button type="submit" id="form_button">Add to Wishlist</button>
+                </div>
+            </form>
+        </div>
+
+        <article>
+            <h2 id="title">Enter destination details to add destination to the wishlist.</h2>
+            <div id="dest_container">
+                    
+            </div>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
